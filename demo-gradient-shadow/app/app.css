@@ -1,0 +1,8 @@
+﻿.list-item {
+    padding: 30;
+}
+
+.shadow-down {
+    height: 8;
+    background: linear-gradient(to bottom, rgba(255,0,0, .4), rgba(255,0,0, 0))
+}

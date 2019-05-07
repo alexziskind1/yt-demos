@@ -1,0 +1,21 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo" class="page">
+
+    <GridLayout rows="60 *">
+
+        <Label text="My app" />
+
+        <ListView items="{{ items }}" row="1" separatorColor="transparent">
+            <ListView.itemTemplate>
+                <StackLayout>
+                    <Label text="{{ $value }}" class="list-item" />
+                    <Label class="shadow-down" row="1" verticalAlignment="top" />
+                </StackLayout>
+            </ListView.itemTemplate>
+        </ListView>
+
+        <Label class="shadow-down" row="1" verticalAlignment="top" />
+
+    </GridLayout>
+
+
+</Page>
