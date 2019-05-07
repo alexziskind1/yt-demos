@@ -1,0 +1,10 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo" class="page" 
+    xmlns:df="nativescript-ui-dataform">
+
+    <StackLayout class="p-20">
+        <Label text="Tap the button" class="h1 text-center"/>
+        <Button text="TAP" tap="{{ onTap }}" class="btn btn-primary btn-active"/>
+
+        <df:RadDataForm id="myDataForm" source="{{ formModel }}" />
+    </StackLayout>
+</Page>
