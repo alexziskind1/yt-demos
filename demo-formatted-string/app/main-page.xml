@@ -1,0 +1,21 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo" class="page">
+
+    <Page.actionBar>
+        <ActionBar title="My App" icon="" class="action-bar">
+        </ActionBar>
+    </Page.actionBar>
+
+    <StackLayout class="p-20">
+        <Label textWrap="true">
+            <Label.formattedText>
+                <FormattedString>
+                    <FormattedString.spans>
+                        <Span text="Tap sdf sdf adf adf adsf asdf adsf adsf adsf adsf dfs &#xa; &#xa;" />
+                        <Span text="Mys df sf sfdg sdfg sfdg sdfg sdfg sfdg fd &#xa; &#xa;" style="color: blue;" />
+                        <Span text="Buttondsfg sfdg sfg sfdg sdf gsf sfd fdsg fsd gfdsg " />
+                    </FormattedString.spans>
+                </FormattedString>
+            </Label.formattedText>
+        </Label>
+    </StackLayout>
+</Page>
