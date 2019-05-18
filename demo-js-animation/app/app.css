@@ -1,0 +1,13 @@
+﻿
+@import '~nativescript-theme-core/css/core.light.css';
+
+
+.btn {
+    font-size: 18;
+}
+
+.my-lbl {
+    height: 100;
+    width: 100;
+    background-color: red;
+}
