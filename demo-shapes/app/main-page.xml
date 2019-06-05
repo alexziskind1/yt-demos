@@ -1,0 +1,6 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd">
+
+    <StackLayout>
+        <Label style="background-color: green; height: 200; width: 50;border-radius: 50%;" />
+    </StackLayout>
+</Page>
