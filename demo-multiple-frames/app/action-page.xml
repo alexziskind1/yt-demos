@@ -1,0 +1,7 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" actionBarHidden="true" backgroundColor="red">
+
+    <StackLayout height="60" verticalAlignment="top">
+        <Button text="TAP ME" tap="tapMeTap" android:marginTop="20" />
+    </StackLayout>
+
+</Page>

@@ -1,0 +1,4 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd">
+
+    <Label text="Page 2" class="page-name" />
+</Page>

@@ -1,0 +1,13 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" actionBarHidden="true">
+
+    <GridLayout>
+
+        <Frame defaultPage="home-page">
+        </Frame>
+
+        <Frame defaultPage="action-page" loaded="actionFrameLoaded">
+        </Frame>
+
+    </GridLayout>
+
+</Page>

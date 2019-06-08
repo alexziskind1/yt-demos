@@ -1,0 +1,19 @@
+﻿
+Button {
+    background-color: rgb(110, 163, 110);
+    color: rgb(48, 47, 79);
+    width: 100;
+    border-width: 1;
+    border-color: transparent;
+    padding: 10;
+    border-radius: 30;
+    text-transform: uppercase;
+}
+
+.page-name {
+    vertical-align: top;
+    text-align: center;
+    font-size: 50;
+    color: gray;
+    text-transform: uppercase;
+}

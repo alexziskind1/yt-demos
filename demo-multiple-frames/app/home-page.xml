@@ -1,0 +1,8 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd">
+
+    <StackLayout>
+        <Label text="Page 1" class="page-name" />
+        <Button text="Got to 2" tap="page1BtnTap" />
+    </StackLayout>
+
+</Page>
