@@ -1,0 +1,75 @@
+﻿@import '~nativescript-theme-core/css/core.light.css';
+
+.bar {
+    background-color: darkblue;
+    width: 22;
+    height: 4;
+    margin-bottom: 3;
+    border-radius: 2;
+}
+
+.bar1.menu-bar-on {
+    animation-name: bar1anim;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+}
+
+.bar1.menu-bar-off {
+    animation-name: bar1anim;
+    animation-duration: .5s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-direction: reverse;
+}
+
+.bar2.menu-bar-on {
+    animation-name: bar2anim;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+}
+
+.bar2.menu-bar-off {
+    animation-name: bar2anim;
+    animation-duration: .5s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-direction: reverse;
+}
+
+.bar3.menu-bar-on {
+    animation-name: bar3anim;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+}
+
+.bar3.menu-bar-off {
+    animation-name: bar3anim;
+    animation-duration: .5s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-direction: reverse;
+}
+
+@keyframes bar1anim {
+    from { transform: translate(0, 0) rotate(0deg); }
+    to { transform: translate(0, 7) rotate(45deg); }
+}
+
+@keyframes bar2anim {
+    from { transform: translate(0, 0); opacity: 1; }
+    to { transform: translate(-10, 0); opacity: 0; }
+}
+
+@keyframes bar3anim {
+    from { transform: translate(0, 0) rotate(0deg); }
+    to { transform: translate(0, -7) rotate(-45deg); }
+}

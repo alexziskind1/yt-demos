@@ -1,0 +1,14 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd">
+    <Page.actionBar>
+        <ActionBar title="My App" icon="" class="action-bar">
+            <ActionItem>
+                <StackLayout tap="menuTap">
+                    <Label id="bar1" class="bar bar1" />
+                    <Label id="bar2" class="bar bar2" />
+                    <Label id="bar3" class="bar bar3" />
+                </StackLayout>
+            </ActionItem>
+        </ActionBar>
+    </Page.actionBar>
+
+</Page>
