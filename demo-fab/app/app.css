@@ -1,0 +1,42 @@
+﻿@import '~nativescript-theme-core/css/core.light.css';
+
+ListView {
+    width: 100%;
+    height: 100%;
+}
+
+ListView Label {
+    height: 48;
+    min-height: 48;
+}
+
+#btnFab {
+    width: 56;
+    height: 56;
+    background-color: orangered;
+    border-radius: 28;
+}
+
+.lbl-plus {
+    height: 16;
+    width: 16;
+    background-color: white;
+    clip-path: polygon(0 35%, 35% 35%, 35% 0, 65% 0%, 65% 35%, 100% 35%, 100% 65%, 65% 65%, 65% 100%, 35% 100%, 35% 65%, 0 65%);
+}
+
+.fab-icon {
+    height: 16;
+    width: 16;
+}
+
+.fab-dash--1,
+.fab-dash--2 {
+    background-color: #fff;
+    transform: translate(0, -2);
+    height: 16;
+    width: 3;
+}
+
+.fab-dash--1 {
+    transform: rotate(90deg) translate(0, -2);
+}
