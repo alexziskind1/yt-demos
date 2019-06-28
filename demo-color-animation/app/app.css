@@ -1,0 +1,8 @@
+﻿
+@import '~nativescript-theme-core/css/core.light.css';
+
+.h1 {
+    font-size: 80;
+    font-weight: 900;
+    color: red;
+}
